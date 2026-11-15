@@ -144,7 +144,26 @@ AUTHORITY = {d: "maker" for d in ("parkside-pwsap-20-li-e6-manual", "pferd-sg-al
                                   "klingspor-kronenflex-edge-flyer")}
 
 
+def _say(id_: str, name: str, text: str, *about: str) -> Node:
+    return Node(id=id_, kind="guidance", name=name, payload={"text": " ".join(text.split())},
+                links={"about": list(about)} if about else {})
+
+
+def guidance() -> Node:
+    """What whoever designs with this package is told before reading its nodes (furniture-design's kind
+    guidance): a reader gives it to its assistant and writes none of its own."""
+    return Node(id="guidance", kind="", children=[
+        _say("cutting-with-a-grinder", "A part cut with an angle grinder", """
+            A part cut with an angle grinder links sawn_with the grinder (tools/parkside-pwsap-20-li-e6, whose
+            cut is the disc it comes with) or the cut-off disc fitted to it (tools/pferd-eht-125-1-0-sg-alu or
+            tools/klingspor-kronenflex-edge-125-1-2, both for aluminium), each stating its cut as its maker
+            prints it; a grinder follows the general method tools/angle-grinder.""",
+            "tools/parkside-pwsap-20-li-e6", "tools/pferd-eht-125-1-0-sg-alu",
+            "tools/klingspor-kronenflex-edge-125-1-2"),
+    ])
+
+
 def knowledge() -> list[Node]:
     """The branches to merge beside furniture-design's: the sources and the grinders and discs."""
     return [Node(id=SOURCES, kind="", children=with_authority(sources(), AUTHORITY)),
-            Node(id=TOOLS, kind="", children=tools())]
+            Node(id=TOOLS, kind="", children=tools()), guidance()]
