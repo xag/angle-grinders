@@ -1,0 +1,89 @@
+{
+ "documents": [
+  {
+   "id": "parkside-pwsap-20-li-e6-manual",
+   "publisher": "Grizzly Tools GmbH & Co. KG (Parkside)",
+   "title": "PWSAP 20-Li E6 cordless angle grinder: operating instructions, IAN 426004_2301",
+   "url": "https://media.sit-connect.com/public/articlemanual/a862152c-06a9-4f4f-be07-8c5bf86b7f07.pdf",
+   "fetched": "2026-11-15",
+   "sha256": "9283510061c03d084047afe6fcb25870498b6d0e2a03ddd81eb4b05f68fa07f5",
+   "file": "parkside-PWSAP-20-Li-E6-IAN426004.pdf",
+   "text_sha256": "8c2e42951a4439ec996385db127eb634243cb73a7b9d39039431d5dd90dceed2",
+   "clauses": [
+    {
+     "id": "technical-data",
+     "locator": "English, Technical data, p. 32",
+     "params": {
+      "max_kerf": {"value": 1.2, "unit": "mm", "printed": "Cut-off wheels................Max. 1.2 mm"},
+      "disc_diameter": {"value": 125, "unit": "mm", "printed": "Disc brushes............. max. Ø 125 mm"},
+      "bore": {"value": 22.23, "unit": "mm", "printed": "Bore hole............................. 22.23 mm"},
+      "speed": {"value": 10000, "unit": "1/min", "printed": "Idling speed (n)..................... 10000 min-1"}
+     }
+    },
+    {
+     "id": "supplied-disc",
+     "locator": "English, Technical data, the cutting disc WA60 T BF supplied, p. 32",
+     "params": {
+      "kerf": {"value": 1.2, "unit": "mm", "printed": "Thickness................................. 1.2 mm"}
+     }
+    },
+    {"id": "cutting-disc", "locator": "English, Cutting disc: guard cover with its attachment, fibre-reinforced discs, small feed, counter-direction, p. 43", "params": {}},
+    {"id": "handle", "locator": "English, Assembling the handle: only with the handgrip mounted, p. 43", "params": {}},
+    {"id": "changing-the-disc", "locator": "English, Changing the tool: the label on the wheel towards the device, p. 44-46", "params": {}},
+    {"id": "cutting", "locator": "English, Additional safety for cutting: support on both sides, no curve cuts, p. 40", "params": {}},
+    {"id": "speed", "locator": "English, Selecting the speed: 6 levels; trial run without load, p. 47", "params": {}}
+   ]
+  },
+  {
+   "id": "pferd-sg-alu-page",
+   "publisher": "August Rüggeberg GmbH & Co. KG (PFERD)",
+   "title": "Cut-off wheels SG ALU: product page, variant table",
+   "url": "https://int.pferd.com/en/cut-off-wheels-sg-alu",
+   "fetched": "2026-11-15",
+   "sha256": "c72c8f839bad81e285c1cd0483bc13caae0fbb760f14d5a890160b0ae5994d59",
+   "file": "pferd-cut-off-wheels-sg-alu.html",
+   "text_sha256": "5069b3a08cd4f3c9908cf920eef835e89fc249ed4e2f7c38b108d0300a94036b",
+   "clauses": [
+    {
+     "id": "eht-125-1-0",
+     "locator": "Variant table, 61341115 EHT 125-1,0 SG ALU: dia. external, dia. hole, shape, width",
+     "params": {
+      "kerf": {"value": 1, "unit": "mm", "printed": "EHT 125-1,0 SG ALU | 125 mm | 22.23 mm | EHT / 41 / T1 | 1 mm"}
+     }
+    }
+   ]
+  },
+  {
+   "id": "pferd-catalogue-6",
+   "publisher": "August Rüggeberg GmbH & Co. KG (PFERD)",
+   "title": "Tool Manual catalogue 6, cut-off wheels, WZH 26 (UK English)",
+   "url": "https://assets.pferd.com/pfd/products/pdfs/wzh-26-catalogue-6-web-en-uk.pdf",
+   "fetched": "2026-11-15",
+   "sha256": "d5d12739d1369c96ff48f5f5c3133c1954f8689728e623abd97718cb6bd53706",
+   "file": "pferd-wzh26-catalogue-6-en-uk.pdf",
+   "text_sha256": "433556ec643d69b998620c264575e5f2e03f6019807fb8a9c2ee02a5f11a93f3",
+   "clauses": [
+    {"id": "sg-alu", "locator": "p. 16, SG ALU: for aluminium and other non-ferrous metals, made not to clog", "params": {}}
+   ]
+  },
+  {
+   "id": "klingspor-kronenflex-edge-flyer",
+   "publisher": "Klingspor Schleifsysteme GmbH & Co. KG",
+   "title": "Kronenflex EDGE flyer (German), 355545-01/2020",
+   "url": "https://www.klingspor.de/en/press/news/the-new-kronenflex-edge-by-klingspor/edge_flyer_de_haiger_lores.pdf",
+   "fetched": "2026-11-15",
+   "sha256": "d1c96a3feaa7c203993964edab5160f83595982241dcaab6dc3037c407684ad3",
+   "file": "klingspor-kronenflex-edge-flyer-de.pdf",
+   "text_sha256": "c81545081178f597bcbe9dc69c4a7e98de8cfe94464dfb450afbf8f566ac74db",
+   "clauses": [
+    {
+     "id": "edge-125",
+     "locator": "Table Durchmesser x Breite x Bohrung in mm, row 125; materials steel, stainless steel, aluminium",
+     "params": {
+      "kerf": {"value": 1.2, "unit": "mm", "printed": "125 x 1,2 x 22,23"}
+     }
+    }
+   ]
+  }
+ ]
+}

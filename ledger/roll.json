@@ -1,0 +1,32 @@
+[
+  {
+    "path": "a-cut-off-discs-cut-is-its-printed-width",
+    "kind": "decision",
+    "digest": "c62746514fa8"
+  },
+  {
+    "path": "a-cut-off-discs-cut-is-its-printed-width/a-margin-over-the-width",
+    "kind": "alternative",
+    "digest": "30f98fd9897b"
+  },
+  {
+    "path": "a-cut-off-discs-cut-is-its-printed-width/measure-the-cut",
+    "kind": "alternative",
+    "digest": "f65a300c4efd"
+  },
+  {
+    "path": "grinders-and-their-discs-are-one-package",
+    "kind": "decision",
+    "digest": "890632aa622f"
+  },
+  {
+    "path": "grinders-and-their-discs-are-one-package/a-package-per-maker",
+    "kind": "alternative",
+    "digest": "08f18e906554"
+  },
+  {
+    "path": "grinders-and-their-discs-are-one-package/in-saws",
+    "kind": "alternative",
+    "digest": "48077b5392e0"
+  }
+]
